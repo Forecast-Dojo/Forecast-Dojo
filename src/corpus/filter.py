@@ -2026,10 +2026,7 @@ def run_dedup_step(
 # Pipeline inspection
 
 
-DEFAULT_INSPECT_INPUT = Path(
-    "/storage/home/hcoda1/7/lye48/r-schava6-2/forecast-dojo/data/2025-06/"
-    "CC-NEWS-20250601022535-02377.feather"
-)
+DEFAULT_INSPECT_INPUT = DEFAULT_PIPELINE_INPUT
 INSPECT_N_KEPT = 100
 INSPECT_N_REMOVED = 0
 INSPECT_PREVIEW = 10000
