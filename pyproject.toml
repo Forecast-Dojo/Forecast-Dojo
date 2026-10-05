@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "forecast-dojo"
+version = "0.1.0"
+description = "Replayable environments for benchmarking and training forecasting agents"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "strands-env==0.1.0+forecastdojo",
+    "strands-sglang>=0.4.1",
+    "faiss-cpu",
+    "numpy",
+    "pandas",
+    "pyarrow",
+    "scipy",
+    "tiktoken",
+    "openai",
+    "anthropic",
+    "httpx",
+    "pydantic>=2",
+    "requests",
+    "tenacity",
+    "tqdm",
+    "typing_extensions",
+]
+
+[project.optional-dependencies]
+corpus = ["datatrove", "fasttext", "huggingface-hub", "trafilatura", "warcio"]
+evidence-check = ["bm25s"]
+gpu-search = ["torch", "fastapi", "uvicorn"]
+
+[project.scripts]
+forecast-dojo = "evaluation.run:main"
+dojo-score = "evaluation.metrics:main"
+dojo-data = "data.release:main"
+dojo-build-data = "data.build_dataset:main"
+
+[tool.setuptools.package-dir]
+"" = "src"
+"prompts" = "prompts"
+
+[tool.setuptools.packages.find]
+where = ["src", "."]
+include = ["corpus*", "data*", "environment*", "evaluation*", "prompts"]
+namespaces = false
+
+[tool.setuptools.package-data]
+prompts = ["*.md", "evidence_check/*.md"]

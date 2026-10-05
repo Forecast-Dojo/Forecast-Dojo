@@ -1,0 +1,10 @@
+{
+  "backend": "openai-compatible",
+  "model_id": "nemotron-3-super",
+  "reasoning_effort": "high",
+  "sampling_params": {
+    "temperature": 1.0,
+    "top_p": 1.0
+  },
+  "model_name": "nemotron-3-super"
+}

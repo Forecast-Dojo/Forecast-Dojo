@@ -1,0 +1,6 @@
+{
+  "backend": "openai",
+  "model_id": "gpt-5.5",
+  "reasoning_effort": "xhigh",
+  "model_name": "gpt-5.5"
+}

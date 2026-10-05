@@ -1,0 +1,6 @@
+{
+  "backend": "anthropic",
+  "model_id": "claude-opus-4-8",
+  "reasoning_effort": "max",
+  "model_name": "opus-4.8"
+}

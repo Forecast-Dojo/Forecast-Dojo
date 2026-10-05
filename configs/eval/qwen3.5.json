@@ -1,0 +1,9 @@
+{
+  "backend": "openai-compatible",
+  "model_id": "qwen3.5",
+  "sampling_params": {
+    "temperature": 1.0,
+    "top_p": 1.0
+  },
+  "model_name": "qwen3.5"
+}

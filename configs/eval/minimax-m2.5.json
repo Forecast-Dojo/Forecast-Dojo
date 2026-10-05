@@ -1,0 +1,9 @@
+{
+  "backend": "openai-compatible",
+  "model_id": "minimax-m2.5",
+  "sampling_params": {
+    "temperature": 1.0,
+    "top_p": 1.0
+  },
+  "model_name": "minimax-m2.5"
+}

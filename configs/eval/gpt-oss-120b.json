@@ -1,0 +1,10 @@
+{
+  "backend": "openai-compatible",
+  "model_id": "gpt-oss-120b",
+  "reasoning_effort": "high",
+  "sampling_params": {
+    "temperature": 1.0,
+    "top_p": 1.0
+  },
+  "model_name": "gpt-oss-120b"
+}
