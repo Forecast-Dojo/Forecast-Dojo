@@ -12,7 +12,7 @@
 
 <p align="center">
   Liqin Ye<sup>*1</sup> · Haorui Wang<sup>*1</sup> · Fardin Ahmed<sup>1</sup> · Rongzhi Zhang<sup>†2</sup> · Yuan He<sup>†2</sup> · Ziyuan Lin<sup>3</sup> · Yanbin Yin<sup>1</sup> · Jing Peng<sup>1</sup> · Michael Galarnyk<sup>1</sup> · Sudheer Chava<sup>1</sup> · Chao Zhang<sup>1</sup><br>
-  <small><sup>1</sup>Georgia Institute of Technology &nbsp;·&nbsp; <sup>2</sup>Amazon &nbsp;·&nbsp; <sup>3</sup>University of Florida &nbsp;·&nbsp; <sup>*</sup>Equal contribution &nbsp;·&nbsp; <sup>†</sup>Work done outside Amazon</small>
+  <small><sup>1</sup>Georgia Institute of Technology &nbsp;·&nbsp; <sup>2</sup>Amazon &nbsp;·&nbsp; <sup>3</sup>University of Florida &nbsp;·&nbsp; <sup>†</sup>Work done outside Amazon</small>
 </p>
 
 <p align="center"><img src="assets/teaser.png" width="100%" alt="Accuracy against Brier score of 12 models with research tools on the 230 held-out events, without and with a belief notebook"></p>
